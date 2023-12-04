@@ -1,0 +1,79 @@
+<!--  views/partials/header.ejs - Client Side Header  -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>My WebServer - empowering web development</title>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+
+
+    <body>
+        <div class="container-header container-1-banner header-banner-js" id="header-js-banner">
+            <div class="col-1">
+                <p class="text-center">&#9888; JavaScript is disabled in your browser. Some features may not work.</p>
+            </div>
+        </div>
+
+        <div class="container-menu">
+            <div class="header-menu-burger-button" onclick="toggleMenu(); burgerIcon(this);">
+                <div class="header-menu-burger-icon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <div id="header-menu" class="header-menu">
+                <a href="/">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Item 4...</a>
+                <br>
+            </div>
+        </div>
+
+        <div class="container-banner">
+            <div class="col-1">
+                <img class="header-image-banner" src="assets/images/banner.jpg" alt="Banner">
+            </div>
+        </div>
+
+        <div class="container-3-header col-padding-space-t">
+            <div class="col-1">
+                <div class="header-image">
+                    <a href="/"><div class="header-image-logo" alt="Logo"></div></a>
+                </div>
+            </div>
+
+            <div class="col-2 small-screen-hide">
+                <div class="header-image">
+                    <div class="header-image-scroller header-image-1 active-image"></div>
+                    <div class="header-image-scroller header-image-2"></div>
+                    <div class="header-image-scroller header-image-3"></div>
+                </div>
+            </div>
+
+            <div class="col-3 col-margin-space-l col-small-screen-margin-space-0">
+                <%- include('./header-info-widget') %>
+            </div>
+        </div>
+
+        <div class="container-1-header">
+            <div class="col-1">
+                <div class="header-sticky-content">
+                    <%- include('./header-info-widget') %>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-space-bottom"></div>
+
+        <script>document.getElementById('header-js-banner').style.display = 'none';</script>
