@@ -127,19 +127,19 @@ For help or guidance in downloading and running the application, see the followi
 ### Screenshots
 
 Logging Sample<br>
-![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/master/screenshots/screenshot-logging.png?raw=true)
+![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/main/screenshots/screenshot-logging.png?raw=true)
 
 Website Screenshot 1<br>
-![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/master/screenshots/screenshot-1.png?raw=true)
+![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/main/screenshots/screenshot-1.png?raw=true)
 
 Website Screenshot 2<br>
-![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/master/screenshots/screenshot-2.png?raw=true)
+![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/main/screenshots/screenshot-2.png?raw=true)
 
 Website Screenshot 3<br>
-![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/master/screenshots/screenshot-3.png?raw=true)
+![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/main/screenshots/screenshot-3.png?raw=true)
 
 Website Screenshot 4<br>
-![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/master/screenshots/screenshot-4.png?raw=true)
+![Screenshot#1](https://github.com/tberey/node-typescript-blank-website-template/blob/main/screenshots/screenshot-4.png?raw=true)
 
 <br><hr><br>
 
